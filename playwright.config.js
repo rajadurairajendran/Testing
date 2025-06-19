@@ -10,7 +10,7 @@ module.exports = defineConfig({
     ['list']
   ],
   use: {
-    headless: false,
+    headless: process.env.CI ? true : false,
     viewport: { width: 1280, height: 720 },
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
