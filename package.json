@@ -1,0 +1,11 @@
+{
+  "name": "sauce-demo-tests",
+  "version": "1.0.0",
+  "description": "Automated tests for Sauce Demo website",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+} 
